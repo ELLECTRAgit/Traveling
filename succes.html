@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css?ver=1.0.1" />
+  </head>
+  <body>
+   <header class="header">
+      <div class="container-menu">
+        <nav class="menu__desktop">
+          <ul class="menu">
+            <li class="menu__item">
+              <a href="./index.html" active-color="green">Главная</a>
+            </li>
+            <li class="menu__item">
+              <a href="./gallery.html" active-color="rgb(15 227 23)">Галерея</a>
+            </li>
+            <li class="menu__item">
+              <a href="./index.html"
+                ><img src="images/logo.svg" alt="logo" class="logo"
+              /></a>
+            </li>
+            <li class="menu__item">
+              <a href="./callUs.html" active-color="rgb(121 221 48)"
+                >Обратная связь</a
+              >
+            </li>
+            <li class="menu__item">
+              <a href="./portfolio.html" active-color="#b9dd30">Портфолио</a>
+            </li>
+          </ul>
+          <span class="nav-indicator"></span>
+        </nav>
+        <nav class="menu__mobile">
+          <div class="menu__inner">
+            <a href="./index.html"
+              ><img src="images/logo.svg" alt="logo" class="logo"
+            /></a>
+            <div class="menu__burger">
+              <span>toggle menu</span>
+            </div>
+          </div>
+
+          <ul class="menu">
+            <li class="menu__item active">
+              <a href="./index.html">Главная</a>
+            </li>
+            <li class="menu__item"><a href="./gallery.html">Галерея</a></li>
+            <li class="menu__item">
+              <a href="./callUs.html">Обратная связь</a>
+            </li>
+            <li class="menu__item"><a href="./portfolio.html">Портфолио</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="succes">
+        <div class="succes__text">
+          <h2>Спасибо за Ваш интерес!</h2>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="./js/app.js?ver=1.0.3"></script>
+    <script src="./js/succes.js"></script>
+  </body>
+</html>

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css?ver=1.0.2" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container-menu">
+        <nav class="menu__desktop">
+          <ul class="menu">
+            <li class="menu__item">
+              <a href="./index.html" active-color="green">Главная</a>
+            </li>
+            <li class="menu__item">
+              <a href="./gallery.html" active-color="rgb(15 227 23)">Галерея</a>
+            </li>
+            <li class="menu__item">
+              <a href="./index.html"
+                ><img src="images/logo.svg" alt="logo" class="logo"
+              /></a>
+            </li>
+            <li class="menu__item">
+              <a href="./callUs.html" active-color="rgb(121 221 48)"
+                >Обратная связь</a
+              >
+            </li>
+            <li class="menu__item">
+              <a href="./portfolio.html" active-color="#b9dd30">Портфолио</a>
+            </li>
+          </ul>
+          <span class="nav-indicator"></span>
+        </nav>
+        <nav class="menu__mobile">
+          <div class="menu__inner">
+            <a href="./index.html"
+              ><img src="images/logo.svg" alt="logo" class="logo"
+            /></a>
+            <div class="menu__burger">
+              <span>toggle menu</span>
+            </div>
+          </div>
+
+          <ul class="menu">
+            <li class="menu__item active">
+              <a href="./index.html">Главная</a>
+            </li>
+            <li class="menu__item"><a href="./gallery.html">Галерея</a></li>
+            <li class="menu__item">
+              <a href="./callUs.html">Обратная связь</a>
+            </li>
+            <li class="menu__item"><a href="./portfolio.html">Портфолио</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="galery">
+      <div class="container">
+        <div class="container__gallery">
+           <h1 class="gallery__title">Галерея</h1>
+           <p class="gallery__text">
+             Шантарские острова — здесь вы сможете увидеть чудо природы - китов! 
+             Здесь обитает популяция гренландских китов Охотского моря. Здешние места крайне уединенные, поэтому, если 
+             вы хотите окунуться с головой в мир природы, вам сюда. 
+           </p>
+          <div class="viewport" id="viewport">
+            <!-- Для работы слайдера -->
+            <div class="slider">
+              <div class="slider__item active">
+                <img src="images/Шантара1.jpg" alt="Elbrus1" />
+              </div>
+              <div class="slider__item">
+                <img src="images/Шантара2.jpg" alt="Elbrus2" />
+              </div>
+              <div class="slider__item">
+                <img src="images/Шантара3.jpg" alt="Elbrus3" />
+              </div>
+              <div class="slider__item">
+                <img src="images/Шантара4.jpg" alt="Elbrus4" />
+              </div>
+            </div>
+          </div>
+          <div class="pageination" id="viewSliderOne">
+            <div class="pageination__item active"></div>
+            <div class="pageination__item"></div>
+            <div class="pageination__item"></div>
+            <div class="pageination__item"></div>
+          </div>
+          <div class="slaider__control">
+            <div
+              class="slider__control-button slider__control-prev"
+              id="slider__control-prev"
+             >
+              <<
+            </div>
+            <div
+              class="slider__control-button slider__control-next"
+              id="slider__control-next"
+             >
+              >>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="container">
+          <div class="container__gallery">
+            <div class="container__gallery">
+                <p class="gallery__text">
+                  Эльбрус - нельзя не восхититься красотой этих гор! Преодолеть высоту в 5642 метра - это серьезное испытание.
+                  Но любой путешественник скажет, что вид с высоты
+                  самой высокой горы Европы и России захватывает дух.
+                </p>
+
+                <div class="viewport" id="viewport">
+                  <div class="slider">
+                    <div class="slider__item active">
+                      <img src="images/Эльбрус1.jpg" alt="Elbrus1" />
+                    </div>
+                    <div class="slider__item">
+                      <img src="images/Эльбрус2.jpg" alt="Elbrus2" />
+                    </div>
+                    <div class="slider__item">
+                      <img src="images/Эльбрус3.jpg" alt="Elbrus3" />
+                    </div>
+                    <div class="slider__item">
+                      <img src="images/Эльбрус4.jpg" alt="Elbrus4" />
+                    </div>
+                  </div>
+                </div>
+                <div class="pageination" id="viewSliderTwo">
+                  <div class="pageination__item active"></div>
+                  <div class="pageination__item"></div>
+                  <div class="pageination__item"></div>
+                  <div class="pageination__item"></div>
+                </div>
+                <div class="slaider__control">
+                  <div
+                    class="slider__control-button slider__control-prev"
+                    id="slider__control-prev"
+                  >
+                    <<
+                  </div>
+                  <div
+                    class="slider__control-button slider__control-next"
+                    id="slider__control-next"
+                  >
+                    >>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="container__gallery">
+            <p class="gallery__text">
+              Адыгея может предложить искателям приключений эмоции начиная с эйфории от местных 
+              красот во время пеших походов и кемпинга до всплеска адреналина от экстримального отдыха со спуском 
+              по бурлящим рекам и путешествиями на внедорожниках. Каждый здесь найдет свой отдых! 
+              </p>
+
+            <div class="viewport" id="viewport">
+              <div class="slider">
+                <div class="slider__item active">
+                  <img src="images/Адыгея1.jpg" alt="Elbrus1" />
+                </div>
+                <div class="slider__item">
+                  <img src="images/Адыгея2.jpg" alt="Elbrus2" />
+                </div>
+                <div class="slider__item">
+                  <img src="images/Адыгея3.jpg" alt="Elbrus3" />
+                </div>
+                <div class="slider__item">
+                  <img src="images/Адыгея4.jpg" alt="Elbrus4" />
+                </div>
+              </div>
+            </div>
+            <div class="pageination" id="viewSliderThree">
+              <div class="pageination__item active"></div>
+              <div class="pageination__item"></div>
+              <div class="pageination__item"></div>
+              <div class="pageination__item"></div>
+            </div>
+            <div class="slaider__control">
+              <div
+                class="slider__control-button slider__control-prev"
+                id="slider__control-prev"
+              >
+                <<
+              </div>
+              <div
+                class="slider__control-button slider__control-next"
+                id="slider__control-next"
+              >
+                >>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="container__gallery">
+            <p class="gallery__text">
+              Якутия - таинственный мир этих мест до сих пор хранит на стенах пещер 
+              рисунки древних людей, а их песни путешествуют между каменными башнями 
+              на каждом изгибе рек Синей и Лены.
+            </p>
+
+            <div class="viewport" id="viewport">
+              <div class="slider">
+                <div class="slider__item active">
+                  <img src="images/Якутия1.jpg" alt="Elbrus1" />
+                </div>
+                <div class="slider__item">
+                  <img src="images/Якутия2.jpg" alt="Elbrus2" />
+                </div>
+                <div class="slider__item">
+                  <img src="images/Якутия3.jpg" alt="Elbrus3" />
+                </div>
+                <div class="slider__item">
+                  <img src="images/Якутия4.jpg" alt="Elbrus4" />
+                </div>
+              </div>
+            </div>
+            <div class="pageination" id="viewSliderFour">
+              <div class="pageination__item active"></div>
+              <div class="pageination__item"></div>
+              <div class="pageination__item"></div>
+              <div class="pageination__item"></div>
+            </div>
+            <div class="slaider__control">
+              <div
+                class="slider__control-button slider__control-prev"
+                id="slider__control-prev"
+              >
+                <<
+              </div>
+            <div
+              class="slider__control-button slider__control-next"
+              id="slider__control-next"
+            >
+              >>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js?ver=1.0.2"></script>
+    <script src="./js/index.js?ver=1.0.2"></script>
+    <script src="./js/app.js?ver=1.0.3"></script>
+  </body>
+</html>

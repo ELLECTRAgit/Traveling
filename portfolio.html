@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css?ver=1.0.2" />
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="container-menu">
+      <nav class="menu__desktop">
+        <ul class="menu">
+          <li class="menu__item" ><a href="./index.html" active-color="green">Главная</a></li>
+          <li class="menu__item" ><a href="./gallery.html" active-color="rgb(15 227 23)">Галерея</a></li>
+          <li class="menu__item">
+            <a href="./index.html"
+              ><img src="images/logo.svg" alt="logo" class="logo"
+            /></a>
+          </li>
+          <li class="menu__item" ><a href="./callUs.html" active-color="rgb(121 221 48)">Обратная связь</a></li>
+          <li class="menu__item" ><a href="./portfolio.html" active-color="#b9dd30">Портфолио</a></li>
+        </ul>
+        <span class="nav-indicator"></span>
+  
+      </nav>
+      <nav class="menu__mobile">
+        <div class="menu__inner">
+          <a href="./index.html"><img src="images/logo.svg" alt="logo" class="logo" /></a>
+          <div class="menu__burger">
+            <span>toggle menu</span>
+          </div>
+        </div>
+  
+        <ul class="menu">
+          <li class="menu__item active"><a href="./index.html">Главная</a></li>
+          <li class="menu__item"><a href="./gallery.html">Галерея</a></li>
+          <li class="menu__item"><a href="./callUs.html">Обратная связь</a></li>
+          <li class="menu__item"><a href="./portfolio.html">Портфолио</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<div class="container">
+    <div class="section__hello">
+      
+        <div class="hello__about">
+            <h3>Обо мне</h3>
+            <p>Меня зовут Любовь, я front-end разработчик. 
+                <br>Мне нравится работать с различными задачами - от воплощения вашего дизайна в реальность до создания продуманного пользовательского интерфейса.
+                Умею верстать адаптивные сайты под планшеты и мобильные устройства. </p>
+                <div class="section__skills">
+                  <p class="section__skills-text">При разработке использую:
+                     <span class="skills"></span>
+                    </p>
+                </div>
+                  <div class="skills-strings">
+                    <span>CSS3, HTML5, JavaScript, JQuery, MySQL, GitHub.</span>
+                 
+                  </div>
+                <a href="#feedback" class="feedback-link">
+                    <button class="hello__btn"> Связаться со мной </button>
+                </a>
+        </div>
+      <div class="hello__about-image">
+        <img src="./images/About_me.jpg" alt="About_me">
+      </div>
+     
+    </div>
+</div>
+
+
+<section class="feedback" id='feedback'>
+    <div class="feedback__contact">
+      <a href="#header" class="feedback__close close-feedback">X</a>
+
+      <div class="feedback__content">
+
+      <div class="feedback__title">Давайте работать вместе</div>
+      <form action="php/portfolio.php" class="form form-order" method="POST">
+        <div class="feedback__list">
+          <fieldset class="feedback__item">
+            <input
+              type="text"
+              name="username"
+              placeholder="Ваше имя"
+              required
+              minlength="2"
+            />
+          </fieldset>
+          <fieldset class="feedback__item">
+            <input
+              type="email"
+              name="usermail"
+              placeholder="Ваш email"
+              required
+            />
+          </fieldset>
+          <fieldset class="feedback__item">
+            <input
+              type="tel"
+              name="userphone"
+              placeholder="Ваш телефон"
+              required
+            />
+          </fieldset>
+          <fieldset class="feedback__item comment">
+            <input
+              type="text"
+              name="usercomment"
+              placeholder="Комментарий"
+              required
+            />
+          </fieldset>
+          <fieldset class="feedback__item">
+            <button class="form__btn">Отправить</button>
+          </fieldset>
+        </div>
+      </div>
+      </form>
+    
+    </section>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js?ver=1.0.2"></script>
+    <script src="./js/app.js?ver=1.0.3"></script>
+    <script src="./js/popup.js?ver=1.0.1"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.6/typed.min.js"></script>
+  </body>
+</html>
