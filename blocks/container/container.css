@@ -1,0 +1,38 @@
+.container {
+
+    width: 100%;
+
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.container__gallery {
+    /* width: 50%; */
+    /* max-height: 80vw; */
+    /* height: 40%; */
+    height: calc(var(--index) * 30);
+    width: calc(var(--index) * 30);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: auto;
+ }
+
+/* @media only screen and (min-width: 2560px) {
+    .container__gallery {
+        width: 30%;
+        height: 30%;
+
+    }
+
+} */
+
+/* @media only screen and (min-width: 0px) and (max-width:767px) {
+    .container {
+        max-width: 600px;
+
+    }
+} */

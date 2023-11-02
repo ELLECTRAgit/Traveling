@@ -1,0 +1,8 @@
+.cover__image {
+    max-width: 1184px;
+    width: 100%;
+    margin: 0 auto;
+
+    position: absolute;
+    opacity: 30%;
+}

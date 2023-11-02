@@ -1,0 +1,11 @@
+.image {
+  width: -webkit-fill-available;
+  height: 100%;
+
+}
+
+.imageDiv {
+  background: gray;
+  max-width: 1280px;
+  height: 853px;
+}

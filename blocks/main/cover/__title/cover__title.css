@@ -1,0 +1,23 @@
+.cover__title {
+
+    color: #6b4127;
+    text-align: center;
+    font-family: Inter;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 76px;
+    max-width: 500px;
+    width: 100%;
+    opacity: 1;
+    background-color: transparent;
+}
+
+@media only screen and (min-width: 0px) and (max-width:320px) {
+    .cover__title {
+
+        font-size: 42px;
+
+
+    }
+}

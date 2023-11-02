@@ -1,0 +1,11 @@
+.pageination__item{
+    width: 1vw;
+    height: 1vw;
+    background: white;
+    border-radius: 50%;
+   
+}
+
+.pageination__item.active{
+    background: rgb(239, 189, 125);
+}

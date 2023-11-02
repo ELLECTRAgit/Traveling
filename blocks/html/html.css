@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+    background-color: rgb(42, 44, 47);
+    padding: 0;
+    margin: 0;
+  
+  }
+
+  body, html {
+        width: 100vw;
+  }
+
+  :root{
+    --index: calc(1vw + 1vh);
+  }
+  

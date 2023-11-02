@@ -1,0 +1,28 @@
+.intro__title {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 58px;
+    padding-bottom: 40px;
+
+    max-width: 690px;
+    width: 100%;
+
+}
+
+
+@media only screen and (min-width: 0px) and (max-width:767px) {
+    .intro__title {
+        color: #FFF;
+        font-family: Inter;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 35px;
+        /* 109.375% */
+        max-width: 400px;
+        margin: 0 auto;
+    }
+}

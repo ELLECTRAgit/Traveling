@@ -1,0 +1,10 @@
+.viewport{
+   overflow: hidden;
+   background: grey; 
+   margin-bottom: 25px;
+
+   width: 100%;
+   /* height: calc(var(--index) * 30); */
+
+}
+
